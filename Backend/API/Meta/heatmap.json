@@ -1,0 +1,49 @@
+{   "heatmap" : {
+    "series": [],
+    "chart": {
+    "height": 350,
+    "type": "heatmap",
+    
+      "zoom":{
+        "enabled":false
+      },
+      "pan":{
+        "enabled":false
+      },
+      "selection":{
+        "enabled": false
+    }  
+    }, 
+    "dataLabels": {
+      "enabled": false
+      },
+      "colors": ["#E65100"], 
+    
+    "title": {
+      "style":{
+        "fontSize":"11pt"
+      },
+    "text": "Total Responses Heatmap"
+    },
+    "xaxis": {
+        "type": "category",
+        "categories":[],
+        "tickPlacement":"on",
+        "title":{
+          "text":"Date",
+          "offsetY":15,
+          "style":{
+            "fontSize":"10pt"
+          }
+        }
+      },
+      "yaxis":{
+        "title":{
+          "text":"Facilities",
+          "style":{
+            "fontSize":"10pt"
+          }
+        }
+        }
+      }
+    }

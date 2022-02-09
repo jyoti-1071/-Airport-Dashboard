@@ -1,0 +1,27 @@
+{
+    "series": [],
+    "chart": {
+        "type": "donut"
+    },
+    "plotOptions": {
+        "pie": {
+          "donut": {
+            "labels": {
+              "show": true,
+              "total": {
+                "showAlways": true,
+                "show": true
+              }
+            }
+          }
+        }
+      },
+  "title": {
+    "text": "All Responses",
+    "align": "left",
+    "floating": true
+  },
+  "legend": {
+    "position": "bottom"
+  }
+}
